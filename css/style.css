@@ -1,0 +1,425 @@
+.Bgtop{
+  margin: 0px;
+  background-color: white;
+}
+.navbar{
+  display: flex;
+  justify-content:space-between;
+  align-self: center;
+  background-color: #326e50;
+  padding: 16px 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.logo{
+  align-content: center;
+}
+.nav-buttons{
+  align-self: center;
+  padding-right: 100px;
+}
+.nav-button{
+  padding: 5px 15px;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+}
+.nav-button:focus,
+.nav-button:active{
+  background-color: white;
+  color: #326e50;
+}
+
+
+.home-content{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d7e2de;
+  padding-bottom: 60px;
+  background-image:url("/asset/bg-right-top.png"),url("/asset/bg-left-top.png");
+  background-repeat: no-repeat;
+  background-size: 180px,210px;
+  background-position-x: right,left;
+}
+.homeContent-left{
+  width: 50%;
+}
+.title{
+  text-align: left;
+  font-family: arial;
+}
+.main-title{
+  font-size: 2.6em;
+  font-weight: bold;
+  padding: 40px 0px 0px 80px;
+}
+.sub-title{
+  font-size: 1.2em;
+  padding: 0px 0px 0px 80px;
+}
+.mySlides {
+  display: none;
+  width: 50%;
+}
+.homePageSlides{
+  width: 155%;
+  padding-left: 80px;
+  margin: 0px;
+}
+.quotes{
+  text-align: center;
+  font-family: arial;
+  font-size: 1.2em;
+  padding-left: 20px;
+}
+.online-chat{
+  display: flex;
+  background-color: #93c789;
+  height: 10%;
+  margin: 18px 0px 0px 0px;
+  border-radius: 0px 40px 40px 0px;
+}
+.poto-profil{
+  padding-left:180px ;
+  padding-top: 3px;
+}
+.name-profil{
+  font-family: arial;
+  font-size: 1em;
+  padding-left: 15px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.status{
+  font-weight: normal;
+}
+.homeContent-right{
+  background-color: #cdddc8;
+  margin: 45px 70px 0px 0px;
+  justify-content: flex-start;
+  width: 41%;
+  padding-left: 20px;
+  padding-top: 8px;
+}
+.text1{
+  font-family: arial;
+  font-size: 1em;
+  font-weight: bold;
+  color: darkred;
+}
+.text2{
+  font-family: arial;
+  font-size: 2em;
+  font-weight: bold;
+}
+.text3{
+  font-family: arial;
+  font-size: 1em;
+}
+.form{
+  padding-top: 10px;
+}
+.label1{
+  font-family: arial;
+  font-size: 1em;
+  font-weight: bold;
+}
+.form1{
+  padding:15px 0 ;
+  width: 95%;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border:0px;
+}
+.form2{
+  padding:15px 0 ;
+  width: 95%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border:0px;
+}
+.button-submit{
+  font-family: arial;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
+  padding: 10px 120px;
+  margin: 18px 20px 0px 0px;
+  border-radius: 10px;
+  background-color: #326e50;
+  cursor: pointer;
+}
+.button-submit:hover{
+  background-color: white;
+  color: #326e50;
+}
+.fitban{
+  height: 35px;
+  background-color: #d7e2de;
+  display: flex;
+  flex-direction: column;
+}
+.fitur-benner{
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  margin: 0px 70px 0px 70px;
+  padding: 10px 0px;
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 3px rgba(3,7,18,0.03),0px 8px 11px rgba(3,7,18, 0.06), 0px 18px 24px rgba(3,7,18, 0.09);
+}
+.fitur-benner-1{
+  display: flex;
+  align-items: center;
+}
+.fitur-benner-text{
+  padding-left: 10px;
+  padding-right: 20px;
+  font-family: Arial;
+  font-size: 0.8em;
+}
+.fitbentext1{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.title-fitur{
+  font-family: arial;
+  font-size: 1.7em;
+  font-weight: bold;
+  color: #326e50;
+  text-align: center;
+  padding-top: 60px;
+  background-color: white;
+}
+.fitur-content{
+  display: flex;
+  padding: 30px 95px;
+  font-family: arial;
+  background-color: white;
+}
+.fitur-content-left{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.fitur-content-title{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.fitur-content-subtitle{
+  font-size: 1em;
+  color: darkgrey;
+}
+.fitur-content-text{
+  font-size: 1.2em;
+}
+.fitur-content-right{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 50px;
+}
+.menu-paket{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.paket-title{
+  align-items: center;
+  text-align: center;
+  padding: 6px 0px;
+  font-family: Arial;
+  font-size: 2em;
+  font-weight: bold;
+  color: #326e50;
+}
+.paket-subtitle{
+  font-size: 0.8em;
+  font-weight: normal;
+  font-style: italic;
+}
+.paket-menu{
+  display: flex;
+  justify-content: center;
+}
+.menu-left{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-left: 50px;
+}
+.menu-right{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 50px;
+}
+.menu-left-top,
+.menu-left-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.menu1{
+  padding: 12px 25px;
+  text-align: center;
+  font-family: arial;
+  font-size: 0.9em;
+}
+.sub-menu{
+  font-size: 0.8em;
+}
+.price{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.call-us{
+  display: flex;
+  flex-direction: column;
+  background-color: #cdddc8;
+  height: 400px;
+}
+.callus-title{
+  text-align: center;
+  font-family: arial;
+  font-size: 3em;
+  font-weight: bolder;
+  align-items: center;
+  height: 70px;
+  color: black;
+  padding-top: 25px;
+}
+.callus-menu{
+  display: flex;
+  justify-content: space-around;
+}
+.callus-menu1{
+  width: 250px;
+  margin: 20px 0 0 0;
+  text-align: center;
+  font-family: Arial;
+  font-size: 1em;
+}
+.callus-text1{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.button2{
+  font-family: arial;
+  font-size: 1.5em;
+  color: #326e50;
+  text-align: center;
+  padding: 10px 40px;
+  margin: 18px 0px 0px 0px;
+  border-radius: 10px;
+  background-color: white;
+  text-decoration: none;
+}
+.footer{
+  text-align: center;
+  font-family: Arial;
+  padding: 10px 80px;
+  color: white;
+  background-color: #326e50;
+}
+.text4{
+  font-size: 2em;
+}
+.text6{
+  color: #64967c;
+}
+
+.error-message{
+  color: darkred;
+  font-size: 0.8em;
+  font-family: arial;
+  text-align: right;
+  padding-right: 30px;
+}
+
+
+@media only screen and (max-width:800px){
+        .navbar{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        padding: 0px;
+        padding-top: 5px;
+        }
+        .nav-buttons{
+        background-color: gray;
+        padding:10px 0px;
+        padding-right: 0px;
+        justify-content: center;
+        text-align-last: center;
+        width:100%;
+        }
+        .home-content{
+          margin-top: 80px;
+          flex-direction: column;
+          justify-content: center;
+          background-size: 100px,120px;
+        }
+        .homeContent-left{
+          width: 100%;
+        }
+        .title{
+          text-align: center;
+        }
+        .main-title{
+          padding: 20px 0 0 0;
+        }
+        .sub-title{
+          padding: 0px;
+        }
+        .homePageSlides{
+          padding-left: 50px;
+        }
+        .online-chat{
+          margin: 0px;
+          width: 70%;
+        }
+        .homeContent-right{
+          width: 100%;
+          margin: 45px 0 0 0;
+          padding: 0px;
+          text-align: center;
+        }
+        .form1,
+        .form2{
+          padding: 0px 0px;
+          width: 90%;
+          height: 50px;
+        }
+        .button-submit{
+          padding: 0px;
+          width: 100%;
+          height: 50px;
+          padding-top: 20px;
+          border-radius: 0px;
+        }
+        .fitur-benner{
+          margin: 0px;
+          border-radius: 0px;
+          padding: 10px 10px;
+        }
+        .fitur-content{
+          padding: 30px 30px;
+        }
+        .paket-menu{
+          flex-direction: column;
+        }
+        .menu-left,
+        .menu-right{
+          width: 100%;
+          padding: 0px 0px;
+          justify-content: space-around;
+        }
