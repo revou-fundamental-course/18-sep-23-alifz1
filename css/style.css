@@ -41,7 +41,7 @@
   justify-content: space-between;
   background-color: #d7e2de;
   padding-bottom: 60px;
-  background-image:url("https://revou-fundamental-course.github.io/18-sep-23-alifzabawi/asset/bg-left-top.png"),url("https://revou-fundamental-course.github.io/18-sep-23-alifzabawi/asset/bg-right-top.png");
+  background-image:url("https://revou-fundamental-course.github.io/18-sep-23-alifzabawi/asset/bg-right-top.png"),url("https://revou-fundamental-course.github.io/18-sep-23-alifzabawi/asset/bg-left-top.png");
   background-repeat: no-repeat;
   background-size: 180px,210px;
   background-position-x: right,left;
